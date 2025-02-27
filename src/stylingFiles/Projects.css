@@ -1,0 +1,57 @@
+.projects {
+  padding: 100px;
+  text-align: center;
+  background: #001f3f; /* Dark Blue */
+  color: white;
+}
+
+.projects h2 {
+  font-size: 3rem;
+  color: #00d8ff;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+.project-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 400px;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px rgba(0, 216, 255, 0.8);
+}
+
+.project-card h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00d8ff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #d1d1d1;
+}
+
+.project-card span {
+  display: inline-block;
+  background: #00d8ff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #001f3f;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

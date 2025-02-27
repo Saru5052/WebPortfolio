@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth; /* 🔥 Smooth Scrolling */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sections {
+  margin-top: 100px; /* Fix Navbar Overlapping Content */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background: #001f3f; /* Deep Navy Blue */
   color: white;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden; /* No Horizontal Scroll */
 }
 
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4 {
+  letter-spacing: 1px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+  .navbar ul {
+    flex-direction: column;
   }
 }

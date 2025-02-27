@@ -1,0 +1,37 @@
+.home {
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a 30%, #001f3f);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.home h1 {
+  font-size: 4rem;
+  letter-spacing: 3px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #00d8ff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: #00d8ff;
+  color: #0f172a;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: white;
+  color: #0f172a;
+}
