@@ -30,8 +30,8 @@ Include Blog Section
 Improve Accessibility
 Connect with Me
 _________________________________________________________________________________________________________________________________________________
-Here is the Link of Deployed website - https://saru5052.github.io/WebPortfolio/
-
+Here is the Link of Deployed website through github - https://saru5052.github.io/WebPortfolio/
+Netlify link of deployed proect :- https://saruwebportfolio.netlify.app
 _________________________________________________________________________________________________________________________________________________
 LinkedIn: www.linkedin.com/in/sarvesh-sawant-1189b922a
 
